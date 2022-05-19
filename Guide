@@ -1,0 +1,12 @@
+#LCD_Guid
+LiquidCrystal lcd(12, 11, 5,  4,  3,  2);
+                  RS, E,  D4, D5, D6, D7
+Connection pins for arduino UNO
+* LCD R/W pin to ground
+* LCD VSS pin to ground
+* LCD VCC pin to 5V
+* 10K POT:
+* ends to +5V and ground
+* wiper to LCD VO pin (pin 3)
+
+sample code: https://create.arduino.cc/projecthub/akshayjoseph666/interface-16x2-lcd-parallel-interface-with-arduino-uno-2e87e2
